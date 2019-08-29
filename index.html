@@ -19,6 +19,7 @@
     <meta property="og:image" content="https://www.geguziuklinika.lt/foto/odontologijos-klinika-siauliai.png" />
 
     <link href="klinika.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed:italic&text=GegužiųKlinikaPaslaugosKontaktaiRegistruokis%21%2063821" rel="stylesheet">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons&text=callhomemail_outlinedate_rangeaccess_time" rel="stylesheet">
@@ -125,6 +126,9 @@
 
 </head>
 
+
+
+
 <body>
 
     <header>
@@ -147,15 +151,18 @@
                 <article>
                     <h1>Odontologijos klinika Šiauliuose</h1>
                     <p> Gegužių odontologijos klinikoje, Šiauliuose, už protingą kainą išspręsime visas Jūsų dantų problemas
-                        – nuo paprasto karieso iki sudėtingo dantų protezavimo ar implantavimo. Garantuojame aukščiausią
-                        odontologijos paslaugų kokybę, nes klinikoje dirba tik patyrę gydytojai odontologai. Kviečiame apsilankyti.
+                        – nuo paprasto karieso iki sudėtingo dantų protezavimo ar implantavimo.                      
+                    </p>
+                    <p>
+                        Garantuojame aukščiausią odontologijos paslaugų kokybę, nes 
+                        klinikoje dirba tik patyrę gydytojai odontologai. Kviečiame apsilankyti.
                         Mus rasite Šiauliuose prie Akropolio.<br/>
                     </p>
                     <h2><i class="material-icons">call</i>&nbsp;+370 638 32211</h2>
                 </article>
 
                 <article>
-                    <img id="main-image" src="/foto/odontologijos-klinika-siauliai.png" alt="Odontologijos klinika Šiauliuose" />
+                    <img id="main-image" src="/foto/odontologijos-klinika-siauliai.png" alt="Odontologijos klinika Šiauliuose" />                   
                 </article>
 
             </div>
@@ -327,6 +334,31 @@
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDkUQ8QKWzZFyqU6j02EC9Fwen3LOZG9ek&amp;callback=initialize">
     </script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+<script>
+window.cookieconsent.initialise({
+  "palette": {
+    "popup": {
+      "background": "#76bbff",
+      "text": "#005b9a"
+    },
+    "button": {
+      "background": "#ffffff",
+      "text": "#005b9a"
+    }
+  },
+  "theme": "classic",
+  "position": "bottom-right",
+  "content": {
+    "message": "Šis puslapis naudoja slapukus.",
+    "dismiss": "Sutinku",
+    "link": "Privatumo politika",
+    "href": "/privatumo-politika.html"
+  }
+});
+</script>
 
 </body>
 
